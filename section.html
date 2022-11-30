@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- === Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- ===== Link Swiper's CSS ===== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- ===== Fontawesome CDN Link ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+        
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!--<title>Card with Sliding Feature</title>-->
+</head>
+<body>
+
+  <section class="relative">
+    
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+
+        <div class="swiper-slide">
+          <div class="card-content h-[350px] w-[450px] p-7 rounded-xl bg-gradient-to-r from-[#232526] mx-auto to-[#414345] m-5 hover:bg-gradient-to-r hover:from-[#e65c00] hover:to-[#f9d423]">
+            
+            <div class="flex items-center space-x-5">
+                <div class="rounded-full w-20 h-20 bg-[#D9D9D9]"></div>
+                <div class="text-white">
+                    <p class="text-[24px] font-semibold">Aryan Sharma</p>
+                    <p>Web Designer</p>
+                </div>
+            </div>
+            <div class="text-white mt-10">
+                <p>Lorem, ipsum.</p>
+            </div>
+
+        </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card-content h-[350px] w-[450px] p-7 rounded-xl bg-gradient-to-r from-[#232526] mx-auto to-[#414345] m-5 hover:bg-gradient-to-r hover:from-[#e65c00] hover:to-[#f9d423]">
+              
+              <div class="flex items-center space-x-5">
+                  <div class="rounded-full w-20 h-20 bg-[#D9D9D9]"></div>
+                  <div class="text-white">
+                      <p class="text-[24px] font-semibold">Aryan Sharma</p>
+                      <p>Web Designer</p>
+                  </div>
+              </div>
+              <div class="text-white mt-10">
+                  <p>Lorem, ipsum.</p>
+              </div>
+  
+          </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-content h-[350px] w-[450px] p-7 rounded-xl bg-gradient-to-r from-[#232526] mx-auto to-[#414345] m-5 hover:bg-gradient-to-r hover:from-[#e65c00] hover:to-[#f9d423]">
+              
+              <div class="flex items-center space-x-5">
+                  <div class="rounded-full w-20 h-20 bg-[#D9D9D9]"></div>
+                  <div class="text-white">
+                      <p class="text-[24px] font-semibold">Aryan Sharma</p>
+                      <p>Web Designer</p>
+                  </div>
+              </div>
+              <div class="text-white mt-10">
+                  <p>Lorem, ipsum.</p>
+              </div>
+  
+          </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-content h-[350px] w-[450px] p-7 rounded-xl bg-gradient-to-r from-[#232526] mx-auto to-[#414345] m-5 hover:bg-gradient-to-r hover:from-[#e65c00] hover:to-[#f9d423]">
+              
+              <div class="flex items-center space-x-5">
+                  <div class="rounded-full w-20 h-20 bg-[#D9D9D9]"></div>
+                  <div class="text-white">
+                      <p class="text-[24px] font-semibold">Aryan Sharma</p>
+                      <p>Web Designer</p>
+                  </div>
+              </div>
+              <div class="text-white mt-10">
+                  <p>Lorem, ipsum.</p>
+              </div>
+  
+          </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-content h-[350px] w-[450px] p-7 rounded-xl bg-gradient-to-r from-[#232526] mx-auto to-[#414345] m-5 hover:bg-gradient-to-r hover:from-[#e65c00] hover:to-[#f9d423]">
+              
+              <div class="flex items-center space-x-5">
+                  <div class="rounded-full w-20 h-20 bg-[#D9D9D9]"></div>
+                  <div class="text-white">
+                      <p class="text-[24px] font-semibold">Aryan Sharma</p>
+                      <p>Web Designer</p>
+                  </div>
+              </div>
+              <div class="text-white mt-10">
+                  <p>Lorem, ipsum.</p>
+              </div>
+  
+          </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-content h-[350px] w-[450px] p-7 rounded-xl bg-gradient-to-r from-[#232526] mx-auto to-[#414345] m-5 hover:bg-gradient-to-r hover:from-[#e65c00] hover:to-[#f9d423]">
+              
+              <div class="flex items-center space-x-5">
+                  <div class="rounded-full w-20 h-20 bg-[#D9D9D9]"></div>
+                  <div class="text-white">
+                      <p class="text-[24px] font-semibold">Aryan Sharma</p>
+                      <p>Web Designer</p>
+                  </div>
+              </div>
+              <div class="text-white mt-10">
+                  <p>Lorem, ipsum.</p>
+              </div>
+  
+          </div>
+          </div>
+        
+
+      </div>
+    </div>
+
+  
+      <div class="swiper-pagination"></div>
+  </section>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      slidesPerGroup: 2,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 1,
+        },
+        950: {
+            slidesPerView: 2,
+        },
+    },
+    });
+  </script>
+
+</body>
+</html>
